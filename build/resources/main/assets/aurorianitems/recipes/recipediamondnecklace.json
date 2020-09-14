@@ -1,0 +1,38 @@
+{
+  "group": "aurorianitems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "type": "forge:ore_dict",
+      "ore": "string"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "type": "forge:ore_dict",
+      "ore": "string"
+    },
+    "3": {
+      "type": "forge:ore_dict",
+      "ore": "gemDiamond"
+    },
+    "5": {
+      "type": "forge:ore_dict",
+      "ore": "gemDiamond"
+    },
+    "7": {
+      "type": "forge:ore_dict",
+      "ore": "gemDiamond"
+    }
+  },
+  "result": {
+    "item": "aurorianitems:diamondnecklace",
+    "count": 1
+  }
+}

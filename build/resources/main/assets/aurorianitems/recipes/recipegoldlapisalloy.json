@@ -1,0 +1,21 @@
+{
+  "group": "aurorianitems",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 4
+    },
+    {
+      "type": "forge:ore_dict",
+      "ore": "slimeball"
+    }
+  ],
+  "result": {
+    "item": "aurorianitems:goldlapisalloy",
+    "count": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "aurorianitems:portalcatalyst"
+    },
+    "title": {
+      "translate": "advancements.catalystcreator.title"
+    },
+    "description": {
+      "translate": "advancements.catalystcreator.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "catalystcreator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "aurorianitems:portalcatalyst",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  },
+  "parent": "minecraft:story/mine_diamond"
+}

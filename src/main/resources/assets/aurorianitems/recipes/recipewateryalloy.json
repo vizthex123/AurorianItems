@@ -1,0 +1,16 @@
+{
+  "group": "aurorianitems",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "aurorianitems:goldlapisalloy"
+    }
+  ],
+  "result": {
+    "item": "aurorianitems:waterygoldlapis",
+    "count": 1
+  }
+}

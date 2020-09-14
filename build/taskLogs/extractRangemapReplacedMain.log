@@ -1,0 +1,52 @@
+Unsupposrted library path: C:\Users\Caleb\MCreatorWorkspaces\aurorianitems\build\classes\java\api
+Unsupposrted library path: C:\Users\Caleb\MCreatorWorkspaces\aurorianitems\build\resources\api
+Symbol range map extraction starting
+Processing 16 files
+startProcessing "net/mcreator/aurorianitems/AurorianItems.java" md5: ca9690c190ce12fb09534eee8831a879
+endProcessing "net/mcreator/aurorianitems/AurorianItems.java"
+
+startProcessing "net/mcreator/aurorianitems/AurorianItemsVariables.java" md5: 338762b2b8f4b4b373e63e6d4956485e
+endProcessing "net/mcreator/aurorianitems/AurorianItemsVariables.java"
+
+startProcessing "net/mcreator/aurorianitems/ClientProxyAurorianItems.java" md5: d7543ebd031fb46b56012238104fe019
+endProcessing "net/mcreator/aurorianitems/ClientProxyAurorianItems.java"
+
+startProcessing "net/mcreator/aurorianitems/ElementsAurorianItems.java" md5: b9390247cc417f38b3cda801077d46ef
+endProcessing "net/mcreator/aurorianitems/ElementsAurorianItems.java"
+
+startProcessing "net/mcreator/aurorianitems/IProxyAurorianItems.java" md5: 327bd1a81343e15048f05242748ab7d9
+endProcessing "net/mcreator/aurorianitems/IProxyAurorianItems.java"
+
+startProcessing "net/mcreator/aurorianitems/ServerProxyAurorianItems.java" md5: e563205b770fe714717a2a509c9a86ce
+endProcessing "net/mcreator/aurorianitems/ServerProxyAurorianItems.java"
+
+startProcessing "net/mcreator/aurorianitems/creativetab/TabAurorianItems.java" md5: 953a36f4b8dfb11f5a3d0135afa814c6
+endProcessing "net/mcreator/aurorianitems/creativetab/TabAurorianItems.java"
+
+startProcessing "net/mcreator/aurorianitems/item/ItemCompressedShard.java" md5: adf15c9a57b580dea69b19af4fe92bd3
+endProcessing "net/mcreator/aurorianitems/item/ItemCompressedShard.java"
+
+startProcessing "net/mcreator/aurorianitems/item/ItemCrystalCompound.java" md5: d923847f0d3c9122513efc4902f6cca4
+endProcessing "net/mcreator/aurorianitems/item/ItemCrystalCompound.java"
+
+startProcessing "net/mcreator/aurorianitems/item/ItemDiamondNecklace.java" md5: 09ab5e57311e8fdf84dbe8ecc26113a2
+endProcessing "net/mcreator/aurorianitems/item/ItemDiamondNecklace.java"
+
+startProcessing "net/mcreator/aurorianitems/item/ItemGoldLapisAlloy.java" md5: 283bdb9bd446f14ca422366f6b0146dd
+endProcessing "net/mcreator/aurorianitems/item/ItemGoldLapisAlloy.java"
+
+startProcessing "net/mcreator/aurorianitems/item/ItemLavenderFlour.java" md5: bd56fb90d97d73eb3288510041e6f434
+endProcessing "net/mcreator/aurorianitems/item/ItemLavenderFlour.java"
+
+startProcessing "net/mcreator/aurorianitems/item/ItemPortalCatalyst.java" md5: 26ed6b18592a48db7ca6b88a01905832
+endProcessing "net/mcreator/aurorianitems/item/ItemPortalCatalyst.java"
+
+startProcessing "net/mcreator/aurorianitems/item/ItemPreparedFlesh.java" md5: a1fb50dfe3322f46b95b9aa099f74597
+endProcessing "net/mcreator/aurorianitems/item/ItemPreparedFlesh.java"
+
+startProcessing "net/mcreator/aurorianitems/item/ItemWateryGoldLapis.java" md5: 0588e6ca1f469a54841f74b6edda7285
+endProcessing "net/mcreator/aurorianitems/item/ItemWateryGoldLapis.java"
+
+startProcessing "net/mcreator/aurorianitems/item/ItemWhirlwindReagent.java" md5: 111009247889755f63327fd2778121cd
+endProcessing "net/mcreator/aurorianitems/item/ItemWhirlwindReagent.java"
+

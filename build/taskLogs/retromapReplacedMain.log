@@ -1,0 +1,431 @@
+Processing 16 files
+Start Processing: net/mcreator/aurorianitems/AurorianItems.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fluids.FluidRegistry
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 5 imports
+        java.util.function.Supplier
+        net.minecraft.block.Block
+        net.minecraft.item.Item
+        net.minecraft.potion.Potion
+        net.minecraft.world.biome.Biome
+End  Processing: net/mcreator/aurorianitems/AurorianItems.java
+
+Start Processing: net/mcreator/aurorianitems/AurorianItemsVariables.java
+FOUND CONSTR method net/mcreator/aurorianitems/AurorianItemsVariables/MapVariables/MapVariables ()V net/mcreator/aurorianitems/AurorianItemsVariables/MapVariables
+FOUND CONSTR method net/mcreator/aurorianitems/AurorianItemsVariables/MapVariables/MapVariables (Ljava/lang/String;)V net/mcreator/aurorianitems/AurorianItemsVariables/MapVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[839,850]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[919,929]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[1026,1035]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[1056,1064]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1370,1383]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[1386,1399]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1506,1519]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[1522,1529]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/aurorianitems/AurorianItemsVariables/WorldVariables/WorldVariables ()V net/mcreator/aurorianitems/AurorianItemsVariables/WorldVariables
+FOUND CONSTR method net/mcreator/aurorianitems/AurorianItemsVariables/WorldVariables/WorldVariables (Ljava/lang/String;)V net/mcreator/aurorianitems/AurorianItemsVariables/WorldVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1870,1881]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1950,1960]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[2057,2066]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[2087,2095]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[2301,2309]::provider->field_73011_w
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[2470,2483]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[2615,2622]::setData->func_75745_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[2981,2987]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[2996,3010]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3019,3035]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[3093,3099]::player->field_147369_b
+Rename field net/minecraft/entity/Entity/world[3108,3113]::world->field_70170_p
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3149,3161]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3164,3180]::addScheduledTask->func_152344_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3221,3233]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[3236,3242]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/world[3250,3255]::world->field_70170_p
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[3447,3456]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/provider[3622,3630]::provider->field_73011_w
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[3699,3712]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3715,3722]::setData->func_75745_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3812,3819]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/aurorianitems/AurorianItemsVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage ()V net/mcreator/aurorianitems/AurorianItemsVariables/WorldSavedDataSyncMessage
+FOUND CONSTR method net/mcreator/aurorianitems/AurorianItemsVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage (ILnet/minecraft/world/storage/WorldSavedData;)V net/mcreator/aurorianitems/AurorianItemsVariables/WorldSavedDataSyncMessage
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[4308,4318]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[4576,4587]::readFromNBT->func_76184_a
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.ByteBufUtils
+Adding 4 imports
+        net.minecraft.client.Minecraft
+        net.minecraft.nbt.NBTTagCompound
+        net.minecraft.world.World
+        net.minecraft.world.storage.WorldSavedData
+End  Processing: net/mcreator/aurorianitems/AurorianItemsVariables.java
+
+Start Processing: net/mcreator/aurorianitems/ClientProxyAurorianItems.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.obj.OBJLoader
+End  Processing: net/mcreator/aurorianitems/ClientProxyAurorianItems.java
+
+Start Processing: net/mcreator/aurorianitems/ElementsAurorianItems.java
+FOUND CONSTR method net/mcreator/aurorianitems/ElementsAurorianItems/ElementsAurorianItems ()V net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/minecraftforge/fml/common/discovery/ASMDataTable
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems/ModElement
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/mcreator/aurorianitems/AurorianItemsVariables
+New Key: class net/mcreator/aurorianitems/AurorianItemsVariables
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class java/util/Map
+Rename field net/minecraft/world/World/provider[3699,3707]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[4088,4093]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4102,4110]::isRemote->field_72995_K
+New Key: class net/mcreator/aurorianitems/AurorianItemsVariables
+Rename field net/minecraft/entity/Entity/world[4201,4206]::world->field_70170_p
+New Key: class net/mcreator/aurorianitems/AurorianItemsVariables
+Rename field net/minecraft/entity/Entity/world[4303,4308]::world->field_70170_p
+New Key: class net/mcreator/aurorianitems/AurorianItemsVariables
+New Key: class net/mcreator/aurorianitems/AurorianItemsVariables
+Rename field net/minecraft/entity/Entity/world[4836,4841]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4850,4858]::isRemote->field_72995_K
+New Key: class net/mcreator/aurorianitems/AurorianItemsVariables
+Rename field net/minecraft/entity/Entity/world[4953,4958]::world->field_70170_p
+New Key: class net/mcreator/aurorianitems/AurorianItemsVariables
+FOUND CONSTR method net/mcreator/aurorianitems/ElementsAurorianItems/ModElement/ModElement (Lnet/mcreator/aurorianitems/ElementsAurorianItems;I)V net/mcreator/aurorianitems/ElementsAurorianItems/ModElement
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.IGuiHandler
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.discovery.ASMDataTable
+Import: net.minecraftforge.fml.common.IWorldGenerator
+Import: net.minecraftforge.fml.common.IFuelHandler
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 19 imports
+        java.util.ArrayList
+        java.util.Collections
+        java.util.HashMap
+        java.util.List
+        java.util.Map
+        java.util.Random
+        java.util.function.Supplier
+        net.minecraft.block.Block
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.entity.player.EntityPlayerMP
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+        net.minecraft.potion.Potion
+        net.minecraft.util.ResourceLocation
+        net.minecraft.world.World
+        net.minecraft.world.biome.Biome
+        net.minecraft.world.chunk.IChunkProvider
+        net.minecraft.world.gen.IChunkGenerator
+        net.minecraft.world.storage.WorldSavedData
+End  Processing: net/mcreator/aurorianitems/ElementsAurorianItems.java
+
+Start Processing: net/mcreator/aurorianitems/IProxyAurorianItems.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/aurorianitems/IProxyAurorianItems.java
+
+Start Processing: net/mcreator/aurorianitems/ServerProxyAurorianItems.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/aurorianitems/ServerProxyAurorianItems.java
+
+Start Processing: net/mcreator/aurorianitems/creativetab/TabAurorianItems.java
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+FOUND CONSTR method net/mcreator/aurorianitems/creativetab/TabAurorianItems/TabAurorianItems (Lnet/mcreator/aurorianitems/ElementsAurorianItems;)V net/mcreator/aurorianitems/creativetab/TabAurorianItems
+Rename method net/minecraft/creativetab/CreativeTabs/getTabIconItem ()Lnet/minecraft/item/ItemStack;[718,732]::getTabIconItem->func_78016_d
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Adding 4 imports
+        net.mcreator.aurorianitems.ElementsAurorianItems
+        net.mcreator.aurorianitems.item.ItemDiamondNecklace
+        net.minecraft.creativetab.CreativeTabs
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/aurorianitems/creativetab/TabAurorianItems.java
+
+Start Processing: net/mcreator/aurorianitems/item/ItemCompressedShard.java
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemCompressedShard/ItemCompressedShard (Lnet/mcreator/aurorianitems/ElementsAurorianItems;)V net/mcreator/aurorianitems/item/ItemCompressedShard
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemCompressedShard/ItemCustom/ItemCustom ()V net/mcreator/aurorianitems/item/ItemCompressedShard/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1352,1364]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1373,1385]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1398,1416]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1475,1489]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1545,1566]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1610,1631]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1696,1711]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 6 imports
+        net.mcreator.aurorianitems.ElementsAurorianItems
+        net.mcreator.aurorianitems.creativetab.TabAurorianItems
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/aurorianitems/item/ItemCompressedShard.java
+
+Start Processing: net/mcreator/aurorianitems/item/ItemCrystalCompound.java
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemCrystalCompound/ItemCrystalCompound (Lnet/mcreator/aurorianitems/ElementsAurorianItems;)V net/mcreator/aurorianitems/item/ItemCrystalCompound
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemCrystalCompound/ItemCustom/ItemCustom ()V net/mcreator/aurorianitems/item/ItemCrystalCompound/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1351,1363]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1372,1384]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1397,1415]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1474,1488]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1544,1565]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1609,1630]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1695,1710]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 6 imports
+        net.mcreator.aurorianitems.ElementsAurorianItems
+        net.mcreator.aurorianitems.creativetab.TabAurorianItems
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/aurorianitems/item/ItemCrystalCompound.java
+
+Start Processing: net/mcreator/aurorianitems/item/ItemDiamondNecklace.java
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemDiamondNecklace/ItemDiamondNecklace (Lnet/mcreator/aurorianitems/ElementsAurorianItems;)V net/mcreator/aurorianitems/item/ItemDiamondNecklace
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemDiamondNecklace/ItemCustom/ItemCustom ()V net/mcreator/aurorianitems/item/ItemDiamondNecklace/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1351,1363]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1372,1384]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1396,1414]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1473,1487]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1543,1564]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1608,1629]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1694,1709]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 6 imports
+        net.mcreator.aurorianitems.ElementsAurorianItems
+        net.mcreator.aurorianitems.creativetab.TabAurorianItems
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/aurorianitems/item/ItemDiamondNecklace.java
+
+Start Processing: net/mcreator/aurorianitems/item/ItemGoldLapisAlloy.java
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemGoldLapisAlloy/ItemGoldLapisAlloy (Lnet/mcreator/aurorianitems/ElementsAurorianItems;)V net/mcreator/aurorianitems/item/ItemGoldLapisAlloy
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemGoldLapisAlloy/ItemCustom/ItemCustom ()V net/mcreator/aurorianitems/item/ItemGoldLapisAlloy/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1347,1359]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1368,1380]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1393,1411]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1468,1482]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1538,1559]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1603,1624]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1689,1704]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 6 imports
+        net.mcreator.aurorianitems.ElementsAurorianItems
+        net.mcreator.aurorianitems.creativetab.TabAurorianItems
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/aurorianitems/item/ItemGoldLapisAlloy.java
+
+Start Processing: net/mcreator/aurorianitems/item/ItemLavenderFlour.java
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemLavenderFlour/ItemLavenderFlour (Lnet/mcreator/aurorianitems/ElementsAurorianItems;)V net/mcreator/aurorianitems/item/ItemLavenderFlour
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemLavenderFlour/ItemCustom/ItemCustom ()V net/mcreator/aurorianitems/item/ItemLavenderFlour/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1344,1356]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1365,1377]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1390,1408]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1463,1477]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1533,1554]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1598,1619]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1684,1699]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 6 imports
+        net.mcreator.aurorianitems.ElementsAurorianItems
+        net.mcreator.aurorianitems.creativetab.TabAurorianItems
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/aurorianitems/item/ItemLavenderFlour.java
+
+Start Processing: net/mcreator/aurorianitems/item/ItemPortalCatalyst.java
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemPortalCatalyst/ItemPortalCatalyst (Lnet/mcreator/aurorianitems/ElementsAurorianItems;)V net/mcreator/aurorianitems/item/ItemPortalCatalyst
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemPortalCatalyst/ItemCustom/ItemCustom ()V net/mcreator/aurorianitems/item/ItemPortalCatalyst/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1348,1360]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1369,1381]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1394,1412]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1469,1483]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1539,1560]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1604,1625]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1690,1705]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 6 imports
+        net.mcreator.aurorianitems.ElementsAurorianItems
+        net.mcreator.aurorianitems.creativetab.TabAurorianItems
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/aurorianitems/item/ItemPortalCatalyst.java
+
+Start Processing: net/mcreator/aurorianitems/item/ItemPreparedFlesh.java
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemPreparedFlesh/ItemPreparedFlesh (Lnet/mcreator/aurorianitems/ElementsAurorianItems;)V net/mcreator/aurorianitems/item/ItemPreparedFlesh
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemPreparedFlesh/ItemCustom/ItemCustom ()V net/mcreator/aurorianitems/item/ItemPreparedFlesh/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1344,1356]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1365,1377]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1390,1408]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1463,1477]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1533,1554]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1598,1619]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1684,1699]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 6 imports
+        net.mcreator.aurorianitems.ElementsAurorianItems
+        net.mcreator.aurorianitems.creativetab.TabAurorianItems
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/aurorianitems/item/ItemPreparedFlesh.java
+
+Start Processing: net/mcreator/aurorianitems/item/ItemWateryGoldLapis.java
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemWateryGoldLapis/ItemWateryGoldLapis (Lnet/mcreator/aurorianitems/ElementsAurorianItems;)V net/mcreator/aurorianitems/item/ItemWateryGoldLapis
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemWateryGoldLapis/ItemCustom/ItemCustom ()V net/mcreator/aurorianitems/item/ItemWateryGoldLapis/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1351,1363]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1372,1384]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1397,1415]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1474,1488]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1544,1565]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1609,1630]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1695,1710]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 6 imports
+        net.mcreator.aurorianitems.ElementsAurorianItems
+        net.mcreator.aurorianitems.creativetab.TabAurorianItems
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/aurorianitems/item/ItemWateryGoldLapis.java
+
+Start Processing: net/mcreator/aurorianitems/item/ItemWhirlwindReagent.java
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/mcreator/aurorianitems/ElementsAurorianItems
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemWhirlwindReagent/ItemWhirlwindReagent (Lnet/mcreator/aurorianitems/ElementsAurorianItems;)V net/mcreator/aurorianitems/item/ItemWhirlwindReagent
+FOUND CONSTR method net/mcreator/aurorianitems/item/ItemWhirlwindReagent/ItemCustom/ItemCustom ()V net/mcreator/aurorianitems/item/ItemWhirlwindReagent/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1355,1367]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1376,1388]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1401,1419]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1480,1494]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1550,1571]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1615,1636]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1701,1716]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 6 imports
+        net.mcreator.aurorianitems.ElementsAurorianItems
+        net.mcreator.aurorianitems.creativetab.TabAurorianItems
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/aurorianitems/item/ItemWhirlwindReagent.java
+
