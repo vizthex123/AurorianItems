@@ -1,6 +1,6 @@
 # AurorianItems
 The GitHub repository for the Aurorian Items mod
 
-It only adds a few items and 2 advancements.
+Will only ever add a few items and advancements.
 
-Just meant for my modpack.
+Just meant for my modpack: https://www.curseforge.com/minecraft/modpacks/auroras-adventurer
