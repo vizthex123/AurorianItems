@@ -36,5 +36,5 @@
       "aurorianitems:recipepreparedflesh"
     ]
   },
-  "parent": "minecraft:story/root"
+  "parent": "minecraft:adventure/kill_a_mob"
 }
